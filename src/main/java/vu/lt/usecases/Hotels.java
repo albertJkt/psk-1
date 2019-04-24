@@ -14,7 +14,7 @@ import vu.lt.entities.Hotel;
 import vu.lt.persistence.HotelsDAO;
 
 @Model
-public class Hotels implements Serializable {
+public class Hotels /*implements Serializable*/ {
 
     @Inject
     private HotelsDAO hotelsDAO;
